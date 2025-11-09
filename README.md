@@ -26,7 +26,7 @@ python -c "import torch; print(torch.cuda._is_compiled())"
 Install main modules:
 
 ```
-pip install transformers peft "datasets==4.3.0" "trl==0.19.1"
+pip install "transformers==4.57.1" "peft==0.17.1" "datasets==4.3.0" "trl==0.19.1"
 pip install --no-deps "unsloth==2025.11.2" "unsloth_zoo==2025.11.3"
 pip install hf_transfer
 pip install --no-deps "bitsandbytes==0.48.2"
